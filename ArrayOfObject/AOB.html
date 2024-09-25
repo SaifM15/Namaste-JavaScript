@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Of Object</title>
+</head>
+
+<body>
+    <h1>Array Of Object</h1>
+</body>
+<script>
+    var student = [
+        { Name: "Saif", Age: 24 },
+        { Name: "Devidas", Age: 25 },
+        { Name: "Akash", Age: 24 },
+        { Name: "Sanket", Age: 26 },
+
+
+        
+    ];
+    console.log(student);
+    
+    for (var i = 0; i < student.length; i++) {
+        document.write(student[i].Name + " " + student[i].Age + "<br>"); //this is print on page
+        console.log(student[i].Name + " " + student[i].Age); //this is print on console
+    }
+</script>
+
+</html>
